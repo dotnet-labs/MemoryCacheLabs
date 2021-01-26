@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryCacheRaceCondition", "MemoryCacheRaceCondition\MemoryCacheRaceCondition.csproj", "{67667756-AA97-41FA-90E0-F8092E5CC99E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableCaches.UnitTests", "ImmutableCaches.UnitTests\ImmutableCaches.UnitTests.csproj", "{C14ECB9D-F183-431A-9122-C27ABA672A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableCaches", "ImmutableCaches\ImmutableCaches.csproj", "{B6DE2153-6266-443D-90DD-6096AECDF5EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67667756-AA97-41FA-90E0-F8092E5CC99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67667756-AA97-41FA-90E0-F8092E5CC99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67667756-AA97-41FA-90E0-F8092E5CC99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67667756-AA97-41FA-90E0-F8092E5CC99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14ECB9D-F183-431A-9122-C27ABA672A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14ECB9D-F183-431A-9122-C27ABA672A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14ECB9D-F183-431A-9122-C27ABA672A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14ECB9D-F183-431A-9122-C27ABA672A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DE2153-6266-443D-90DD-6096AECDF5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DE2153-6266-443D-90DD-6096AECDF5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DE2153-6266-443D-90DD-6096AECDF5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DE2153-6266-443D-90DD-6096AECDF5EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34F6B651-8AB6-47CA-97AD-F34EC64AF145}
+	EndGlobalSection
+EndGlobal
